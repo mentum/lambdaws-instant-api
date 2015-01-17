@@ -1,0 +1,31 @@
+{
+  "name": "lambdaws-instant-api",
+  "version": "0.0.1",
+  "description": "Create scalable and distributed api endpoints with any javascript function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mentum/lambdaws-instant-api.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "lambdaws",
+    "api",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "LGPLV3",
+  "bugs": {
+    "url": "https://github.com/mentum/lambdaws-instant-api/issues"
+  },
+  "homepage": "https://github.com/mentum/lambdaws-instant-api",
+  "dependencies": {
+    "lambdaws": "^1.0.2",
+    "node-zip": "^1.1.0",
+    "q": "^1.1.2"
+  }
+}
