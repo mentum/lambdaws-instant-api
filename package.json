@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/mentum/lambdaws-instant-api",
   "dependencies": {
-    "lambdaws": "^1.0.2",
-    "node-zip": "^1.1.0",
-    "q": "^1.1.2"
+    "lambdaws": "1.0.x",
+    "q": "^1.1.2",
+    "request": "^2.51.0",
   }
 }
