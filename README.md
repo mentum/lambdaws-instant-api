@@ -13,7 +13,7 @@ var minus = function(a, b, callback){
 lamdawsInstantApi.config({email: 'your@email.com'});
 
 // Use Lambdaws syntax (https://github.com/mentum/lambdaws)
-lamdawsInstantApiest.createApi(minus, ['q'])
+lamdawsInstantApi.createApi(minus, ['q'])
 	.then(function(instantEndpoints){
 		  console.log(instantEndpoints);
 		  // this outputs
