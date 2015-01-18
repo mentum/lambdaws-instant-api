@@ -1,0 +1,73 @@
+@font-face {
+    font-family: Bariol;
+    src: url("../font/Bariol_Regular.otf") format("opentype");
+}
+
+html, body {
+    font-family: Bariol;
+}
+
+a {
+    color: #1f96ec;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+a:hover, a:focus {
+    color: #117ac5;
+    text-decoration: none;
+}
+
+#header-wrapper {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#header-wrapper h1 {
+    letter-spacing: 4px;
+    font-size: 62px;
+}
+
+#header-wrapper h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+
+#header-wrapper img {
+    max-width: 100%;
+    width: 320px;
+}
+
+@media (max-width: 767px) {
+    #header-wrapper img {
+        width: 200px;
+    }
+}
+
+#header-wrapper pre {
+    white-space: normal;
+    text-align: left;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+#header-wrapper .btn-lambdaws {
+    color: #fff;
+    background-color: #1f96ec;
+    border: none;
+    letter-spacing: 2px;
+    font-size: 21px;
+    padding: 10px 20px;
+    -webkit-transition: all 0.1s ease-in-out;
+    -moz-transition: all 0.1s ease-in-out;
+    -o-transition: all 0.1s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+#header-wrapper .btn-lambdaws:hover {
+    background-color: #117ac5;
+}
