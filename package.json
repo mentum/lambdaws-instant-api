@@ -26,6 +26,6 @@
   "dependencies": {
     "lambdaws": "1.0.x",
     "q": "^1.1.2",
-    "request": "^2.51.0",
+    "request": "^2.51.0"
   }
 }
