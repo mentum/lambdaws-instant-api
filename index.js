@@ -7,9 +7,10 @@ var minus = function(a, b, callback) {
 	callback(a - b);
 };
 
-test.config();
+test.config({email: 'lol@lo.com'});
 
-var cloudedMinus = test.createApi(minus, ['fs', 'q'], {
-	name: 'MINUS'
-});
+test.createApi(minus, ['fs', 'q'], {name: 'MINUS'})
+	.then(function(data){
+		console.log("Data From Server", data);
+	});
 
