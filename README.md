@@ -58,7 +58,23 @@ returns
 200 OK
 ```
 
+### Complete API documentation
+You can view the full API documentation [here](http://lambdaws-instant-api.herokuapp.com/).
 
+## Limitations
 
+You will understand that since this is an alpha product and it is free to use, your usage of the library is therefore limited. These restrictions are currently in place:
+- Instant Functions expire after 50 calls or 30 minutes (the first to be triggered)
+- Possible rate limits if doing too many requests in a given amount of time. In which case we will politely ask you to slow down and kick you for a few minutes.
+- There is a 2000ms delay before the function is launched
 
+These limitations will all go away once we go in private beta.
 
+### Alpha
+lambdaws-instant-api is at a very very early stage. This is by no mean a stable product and should not be used in a production environment.
+
+### Private Beta
+Please subscribe to the private beta by calling the feedback route. We will send out limited amount of invites once we go in beta.
+
+### Feedback
+Please give the library a try and give us your feedback. You can do so by invoking the ```/feedback``` route. More information is available [here](http://lambdaws-instant-api.herokuapp.com/).
