@@ -12,7 +12,7 @@ Create scalable and distributed public API endpoints from any Javascript functio
 var lamdawsInstantApi = require('lambdaws-instant-api');
 
 var minus = function(a, b, callback) {
-callback(a - b);
+	callback(a - b);
 }
 
 lamdawsInstantApi.config({ email: 'your@email.com' }); // So we can reach you when we are in beta
